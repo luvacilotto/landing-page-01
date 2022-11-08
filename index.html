@@ -5,46 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+    <script src="https://kit.fontawesome.com/43fbfe275a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <img src="" alt="Logo">
-        <nav>
-            <ul>
-                <li>
-                    <a href="">Home</a>
+    <header class="header">
+        <img class="header-image" src="img/logo-transparente.png" alt="Logo">
+        <nav class="navbar-nav">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="">Home</a>
                 </li>
-                <li>
-                    <a href="">Sobre</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Sobre</a>
                 </li>
-                <li>
-                    <a href="">Projetos</a>
-                </li>
-                <li>
-                    <a href="">Contato</a>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="">Contato</a>
                 </li>
             </ul>
         </nav>
-        <div>
-            <a href="">
-                <i></i></a>
-            <a href="">
-                <i></i></a>
-            <a href="">
-                <i></i></a>
-            <a href="">
-                <i></i></a>
+        <div class="nav-social">
+            <a class="nav-social-link" href="https://github.com/luvacilotto">
+                <i class="fa-brands fa-github"></i></a>
+            <a class="nav-social-link" href="https://www.linkedin.com/in/luisavramos/">
+                <i class="fa-brands fa-linkedin"></i></a>
+            <a class="nav-social-link" href="https://wa.me/5511996864164">
+                <i class="fa-brands fa-whatsapp"></i></a>
+            <a class="nav-social-link" href="mailto:luvacilotto@gmail.com">
+                <i class="fa-regular fa-envelope"></i></a>
         </div>
     </header>
 
-    <main>
+    <main class="main">
+        <section class="main-content">
+            <div class="content-left">
+                <h1 class="content-left-title">Desenvolvedora Front-End</h1>
+                <h2 class="content-left-subtitle">Sites personalizados.</h2>
+                <button class="content-left--btn">Contato</button>
+            </div>
+            <img class="content-right-image" src="img/logo.png" alt="Logo">
+        </section>
 
+        <section class="second-content">
+            <h3 class="second-content-title">Sobre</h3>
+            <p class="second-content-text">Estudante de Sistemas para Internet com foco em Desenvolvimento Front End.</p>
+            <p class="second-content-text">Estagiária de Desenvolvimento</p>
+            <p class="second-content-text">HTML, CSS, JavaScript</p>
+        </section>
+
+        <footer class="footer">
+            <img class="footer-logo" src="img/logo-horizontal.png" alt="Logo">
+            <div class="footer-contact">            
+                <a class="footer-contact-link" href="https://github.com/luvacilotto">
+                    <i class="fa-brands fa-github"></i></a>
+                <a class="footer-contact-link" href="https://www.linkedin.com/in/luisavramos/">
+                    <i class="fa-brands fa-linkedin"></i></a>
+                <a class="footer-contact-link" href="https://wa.me/5511996864164">
+                    <i class="fa-brands fa-whatsapp"></i></a>
+                <a class="footer-contact-link" href="mailto:luvacilotto@gmail.com">
+                    <i class="fa-regular fa-envelope"></i></a>
+            </div>
+        </footer>
     </main>
 
     <footer>
 
     </footer>
+
 </body>
 
 </html>
