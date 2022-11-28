@@ -5,25 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" type="image/x-icon" href="/img/favicon.png">
     <script src="https://kit.fontawesome.com/43fbfe275a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="header">
+    <header id="home" class="header">
         <img class="header-image" src="img/logo-transparente.png" alt="Logo">
         <nav class="navbar-nav">
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a class="nav-link" href="">Home</a>
+                    <a class="nav-link" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Sobre</a>
+                    <a class="nav-link" href="#sobre">Sobre</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="">Contato</a>
+                    <a class="nav-link" href="#contato">Contato</a>
                 </li>
             </ul>
         </nav>
@@ -50,13 +51,32 @@
         </section>
 
         <section class="second-content">
-            <h3 class="second-content-title">Sobre</h3>
+            <h3 id="sobre" class="second-content-title">Sobre</h3>
             <p class="second-content-text">Estudante de Sistemas para Internet com foco em Desenvolvimento Front End.</p>
-            <p class="second-content-text">Estagiária de Desenvolvimento</p>
-            <p class="second-content-text">HTML, CSS, JavaScript</p>
+            <p class="second-content-text">Estagiária de Desenvolvimento.</p>
+            <p class="second-content-text">Wordpress/Elementor.</p>
+            <p class="second-content-text">Inglês Intermediário e Espanhol Básico.</p>
+            <p class="second-content-text">Excel, Word e PowerPoint intermediário.</p>
         </section>
 
-        <footer class="footer">
+        <section class="third-content">
+            <h3 class="third-content-title">Tecnologias</h3>
+            <div class="third-content-cards">
+                <div class="third-content-cards--card">
+                    <i class="fa-brands fa-html5"></i>
+                    <p>HTML</p>
+                </div>
+                <div class="third-content-cards--card">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p>CSS</p>
+                </div>
+                <div class="third-content-cards--card">
+                    <i class="fa-brands fa-square-js"></i>
+                    <p>JavaScript</p>
+                </div>
+            </div>
+        </section>
+        <footer id="contato" class="footer">
             <img class="footer-logo" src="img/logo-horizontal.png" alt="Logo">
             <div class="footer-contact">            
                 <a class="footer-contact-link" href="https://github.com/luvacilotto">
@@ -71,10 +91,7 @@
         </footer>
     </main>
 
-    <footer>
-
-    </footer>
-
+    <script src="script.js"></script>
 </body>
 
 </html>

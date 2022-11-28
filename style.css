@@ -20,6 +20,14 @@ body {
     justify-content: space-around;
     padding: 15px;
     border-bottom: 1px solid #FF46A4;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.scrolled {
+    top: 0;
+    background-color: #f0f0f0;
 }
 
 .header-image {
@@ -37,6 +45,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     color: #5F2498;
+    transition: .3s alls;
 }
 
 .nav-link:hover {
@@ -47,6 +56,7 @@ body {
     color: #5F2498;
     font-size: 20px;
     padding-right: 10px;
+    transition: .5s all;
 }
 
 .nav-social-link:hover {
@@ -62,7 +72,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 100px 0;
+    padding: 150px 100px 100px;
 }
 
 .content-left {
@@ -110,9 +120,9 @@ body {
     margin: 50px 0 80px 0;
 }
 
-.second-content-title{
+.second-content-title {
     color: #222222;
-    font-size: 20px;
+    font-size: 22px;
     border-top: 1px solid #FF46A4;
     padding-top: 40px;
 }
@@ -121,12 +131,59 @@ body {
     color: #222222;
 }
 
+.third-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin: 50px 0 80px 0;
+}
+
+.third-content-title {
+    color: #222222;
+    font-size: 22px;
+    border-top: 1px solid #FF46A4;
+    padding-top: 40px;
+}
+
+.third-content-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.third-content-cards--card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #FF46A4;
+    border-radius: 10px;
+    width: 120px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    transition: .5s all;
+}
+
+.third-content-cards--card:hover {
+    scale: 1.2;
+}
+
+.third-content-cards p {
+    color: #222222;
+    margin-top: 10px;
+}
+
+.third-content-cards i {
+    font-size: 30px;
+    color: #222222;
+}
+
 .footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     border-top: 1px solid #FF46A4;
-    padding: 15px;
+    padding: 15px 15px 0;
     align-items: center;
 }
 
@@ -138,6 +195,7 @@ body {
     color: #5F2498;
     font-size: 30px;
     padding-right: 20px;
+    transition: .5s all;
 }
 
 .footer-contact-link:hover {
